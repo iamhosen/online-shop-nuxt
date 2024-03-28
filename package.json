@@ -13,5 +13,8 @@
     "nuxt": "^3.11.1",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "nuxt-icon": "^0.6.10"
   }
 }
