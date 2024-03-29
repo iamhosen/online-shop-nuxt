@@ -12,10 +12,8 @@ useHead({
 </script>
 
 <template>
-  <header>
-    header
-  </header>
-  <main>
+  <div class="bg-gray-100">
+    <AppHeader />
     <slot />
-  </main>
+  </div>
 </template>

@@ -12,6 +12,6 @@ products.value = response;
   <Title>Home</Title>
 
   <h1 class="text-xl font-bold">Home Page</h1>
-  <Icon name="mdi:home" />
+  <Icon name="mage:book-text" />
   {{ products }}
 </template>
