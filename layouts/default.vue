@@ -12,10 +12,12 @@ useHead({
 </script>
 
 <template>
+  <NuxtLoadingIndicator color="#E20054"/>
+
   <div class="bg-gray-100 min-h-screen">
     <AppHeader />
     
-    <main class="container mt-8 pb-16">
+    <main class="container mt-6 pb-16">
       <slot />
     </main>
   </div>
