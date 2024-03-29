@@ -1,75 +1,56 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 Online Shop
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This repository contains a simple SSR online shop built using Nuxt 3.
 
-## Setup
+## Screenshots
 
-Make sure to install the dependencies:
+![online shop Screenshot](screenshot.png)
 
-```bash
-# npm
-npm install
+## Technologies Used
 
-# pnpm
-pnpm install
+- Nuxt 3
+- Server-side Rendering
+- Tailwind css
+- Repository design pattern for API Management
 
-# yarn
-yarn install
+  
+## Features
 
-# bun
-bun install
-```
+- Responsive design
+- Listing Shop Items
+- Filter & Search Shop Items
+- Show Shop Items
 
-## Development Server
+## Installation
 
-Start the development server on `http://localhost:3000`:
+1. Clone the repository:
 
-```bash
-# npm
-npm run dev
+   ```bash
+   git clone https://github.com/iamhosen/online-shop-nuxt.git
 
-# pnpm
-pnpm run dev
+2. Navigate to the project directory:
+   
+   ```bash
+   cd online-shop-nuxt
 
-# yarn
-yarn dev
+3. Install dependencies
 
-# bun
-bun run dev
-```
+    ```bash
+    npm install
 
-## Production
 
-Build the application for production:
+4. Start the development server
+   
+    ```bash
+    npm run dev
 
-```bash
-# npm
-npm run build
+5. Open your browser and visit http://localhost:3000/ to view the app.
 
-# pnpm
-pnpm run build
 
-# yarn
-yarn build
+## Credits
 
-# bun
-bun run build
-```
+This Restaurant App is developed by Hossein Amirhosseini.
 
-Locally preview production build:
+## License
 
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+This project is licensed under the [MIT License](LICENSE).
