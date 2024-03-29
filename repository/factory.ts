@@ -55,14 +55,14 @@ class HttpFactory {
             options.headers = headers;
         }
 
-        // @ts-ignore
-        const {data, error} = await useFetch<T>(url, options);
+        const res = await $fetch<T>(url, options)
+            .catch(error => {
+                if (throwError) {
+                    throw error;
+                }
+            });
 
-        if (error.value && throwError) {
-            throw error.value;
-        }
-
-        return data.value as T;
+        return res as T;
     }
 }
 

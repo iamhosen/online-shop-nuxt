@@ -5,8 +5,8 @@ const route = useRoute();
 </script>
 
 <template>
-  <header class="text-secondary rounded-b-2xl bg-white shadow-md">
-    <div class="mx-auto flex max-w-7xl items-center py-8">
+  <header class="text-secondary rounded-b-2xl bg-white shadow-sm">
+    <div class="container flex items-center py-8">
       <div class="flex w-1/4 items-center gap-2">
         <img src="@/assets/images/logo.svg" alt="Online Shop" class="w-6" />
         <h1 class="text-xl font-bold">Online Shop</h1>

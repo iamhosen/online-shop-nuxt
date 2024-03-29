@@ -12,8 +12,11 @@ useHead({
 </script>
 
 <template>
-  <div class="bg-gray-100">
+  <div class="bg-gray-100 min-h-screen">
     <AppHeader />
-    <slot />
+    
+    <main class="container mt-8 pb-16">
+      <slot />
+    </main>
   </div>
 </template>

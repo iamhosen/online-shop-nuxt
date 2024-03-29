@@ -4,7 +4,7 @@ class CategoryModule extends HttpFactory {
     _RESOURCE = '/products';
 
     async index() {        
-        return await this.call({
+        return await this.call<string[]>({
             method: 'GET',
             url: `${this._RESOURCE}/categories`,
         });

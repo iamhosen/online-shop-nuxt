@@ -9,18 +9,18 @@ export const headerMenu = [
         id: 2,
         name: 'Counseling',
         icon: 'mage:book-text',
-        to: '/comming'
+        to: '/#'
     },
     {
         id: 3,
         name: 'FAQs',
         icon: 'mage:message-question-mark-round',
-        to: '/faqs'
+        to: '/#'
     },
     {
         id: 4,
         name: 'Contact Us',
         icon: 'mage:phone',
-        to: '/contact'
+        to: '/#'
     },
 ]
