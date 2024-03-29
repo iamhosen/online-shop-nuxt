@@ -87,6 +87,13 @@ await fetchProducts();
           :key="product.id"
           :product="product"
         />
+
+        <div v-if="!products.length" class="card col-span-full">
+          <h3 class="text-2xl font-bold text-gray-800">Nothing Found!</h3>
+          <p class="text-sm text-gray-600">
+            We couldn't find any products that match your search.
+          </p>
+        </div>
       </div>
     </main>
   </div>

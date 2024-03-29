@@ -35,7 +35,7 @@ const route = useRoute();
       <div class="flex w-1/4 justify-end">
         <NuxtLink
           to="/"
-          class="flex items-center gap-2 rounded-xl bg-primary px-4 py-2 text-white transition-all duration-300 ease-in-out hover:bg-primary-600"
+          class="flex items-center gap-2 rounded-xl bg-primary px-2 lg:px-4 py-2 text-white transition-all duration-300 ease-in-out hover:bg-primary-600"
         >
           <Icon name="mage:phone-call" class="h-5 w-5" />
           <span class="max-lg:hidden">Call Us</span>

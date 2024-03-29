@@ -1,10 +1,10 @@
 <template>
   <footer class="bg-white py-8 shadow-sm">
-    <div class="container grid grid-cols-4">
+    <div class="container grid grid-cols-2 lg:grid-cols-4 gap-4">
       <div>
         <NuxtLink
           to="/"
-          class="mb-4 flex items-center gap-2 max-lg:justify-center"
+          class="mb-4 flex items-center gap-2"
         >
           <img src="@/assets/images/logo.svg" alt="Online Shop" class="w-6" />
           <h1 class="text-2xl font-bold">Online Shop</h1>
