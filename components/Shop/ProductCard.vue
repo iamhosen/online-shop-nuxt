@@ -37,7 +37,7 @@ const url = computed(() => {
       <p class="mb-3 text-gray-800">{{ formatCurrency(product.price) }}</p>
 
       <button
-        class="flex w-full items-center justify-center gap-1 rounded-xl border border-gray-400 bg-white px-5 py-2.5 text-sm font-medium text-primary hover:bg-gray-50 focus:outline-none focus:ring-4 focus:ring-primary-300"
+        class="flex w-full items-center justify-center gap-1 rounded-xl border border-gray-400 bg-white px-5 py-2.5 text-sm font-medium text-primary hover:bg-gray-50"
       >
         <span>Show Details</span>
         <Icon name="mdi:chevron-right" class="h-5 w-5" />
